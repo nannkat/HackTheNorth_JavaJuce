@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/Users/Nanna/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/Nanna/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/Nanna/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/Nanna/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "oboe-Debug-x86": {
+      "artifactName": "oboe",
+      "buildCommand": "/Users/Nanna/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86\" oboe",
+      "abi": "x86",
+      "output": "/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86/oboe/liboboe.a",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-x86": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/Nanna/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86\" cpufeatures",
+      "abi": "x86",
+      "output": "/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "juce_jni-Debug-x86": {
+      "artifactName": "juce_jni",
+      "buildCommand": "/Users/Nanna/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/.cxx/cmake/debug_Debug/x86\" juce_jni",
+      "abi": "x86",
+      "output": "/Users/Nanna/Desktop/AndroidStudioProjects/HackTheNorth_JavaJuce/Builds/Android/app/build/intermediates/cmake/debug_Debug/obj/x86/libjuce_jni.so",
+      "runtimeFiles": []
+    }
+  }
+}
