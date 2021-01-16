@@ -1,16 +1,10 @@
 # Project exclude paths
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+/**
+!/.gitignore
+!/cpp/
+/cpp/**
+!/cpp/june_jni/
+/cpp/june_jni/**
+!/cpp/june_jni/projectName/
+/cpp/june_jni/projectName/**
+!/cpp/june_jni/projectName/Source/
